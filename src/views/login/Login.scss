@@ -1,0 +1,53 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2px;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://e0.pxfuel.com/wallpapers/565/28/desktop-wallpaper-abstract-computer-network-digital-network.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .login-card {
+    background-color: #e4e4e1;
+    background-image: radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(0, 0, 0, 0.03) 100%
+      ),
+      linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(143, 152, 157, 0.6) 100%
+      );
+    background-blend-mode: normal, multiply;
+    padding: 40px;
+    width: 30%;
+
+    .login-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .login-img {
+        border-radius: 10px;
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        top: 18%;
+      }
+
+      h5 {
+        z-index: 2;
+      }
+    }
+
+    .login-btn {
+      text-transform: none;
+    }
+  }
+}
